@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "log2ban"
+version = "0.1.0"
+description = "Simpler fail2ban."
+authors = [
+    { name = "Paweł Pasternak", email = "ppasternak@student.agh.edu.pl" }
+]
+license = { text = "Unlicense" }
+readme = "README.md"
+requires-python = ">=3.13"
+
+dependencies = [
+]
+
+[project.urls]
+repository = "https://github.com/2024-2025-AGH-Wstep-do-Informatyki/python"
+
+[tool.setuptools]
+packages = [
+    "firewall-manager",
+    "log-processor",
+    "log-reader",
+]
