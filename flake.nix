@@ -4,9 +4,12 @@
     flake-utils.url = "github:numtide/flake-utils";
   };
 
-  outputs = { self, nixpkgs, flake-utils }: 
-    flake-utils.lib.eachDefaultSystem (system:
-    let
+  outputs = {
+    self,
+    nixpkgs,
+    flake-utils,
+  }:
+    flake-utils.lib.eachDefaultSystem (system: let
       pkgs = nixpkgs.legacyPackages.${system};
     in {
       devShells.default = pkgs.mkShell {
@@ -15,11 +18,10 @@
           uv
           ruff
         ];
-      
+
         shellHook = ''
           echo "Welcome to development shell with Python 13"
         '';
       };
-  });
+    });
 }
-

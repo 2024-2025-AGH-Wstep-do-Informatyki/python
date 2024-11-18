@@ -9,7 +9,7 @@ This project consists of multiple modules:
 ### Prerequisites for running the app
 
 `Python 3.13` is required for this app to work. You can download it from
-[python.org](https://www.python.org/downloads/). We also encourage you to 
+[python.org](https://www.python.org/downloads/). We also encourage you to
 install [uv](https://github.com/astral-sh/uv) which is an alternatives for
 [pip](https://pypi.org/project/pip/).
 
@@ -39,12 +39,14 @@ Where `<module>` can be `firewall-manager`, `log-reader`, `log-processor`.
 
 * Paweł Pasternak
 
+* Nikodem Marek
+
 See also the list of [contributors](https://github.com/2024-2025-AGH-Wstep-do-Informatyki/python/contributors)
 who participated in this project.
 
 ## License
 
-This project is licensed under the Unlicense License - see the 
+This project is licensed under the Unlicense License - see the
 [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
