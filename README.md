@@ -41,6 +41,8 @@ Where `<module>` can be `firewall-manager`, `log-reader`, `log-processor`.
 
 * Nikodem Marek
 
+* Mateusz Szelecki
+
 See also the list of [contributors](https://github.com/2024-2025-AGH-Wstep-do-Informatyki/python/contributors)
 who participated in this project.
 
