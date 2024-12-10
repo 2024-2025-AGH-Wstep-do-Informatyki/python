@@ -17,6 +17,7 @@
           python313
           uv
           ruff
+          iptables
         ];
 
         shellHook = ''
