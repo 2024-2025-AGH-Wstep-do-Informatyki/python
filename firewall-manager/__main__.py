@@ -8,7 +8,7 @@ def _run_ip_tables(rule: str):
 
 
 def _rule_exists(iptables_rule: str) -> bool:
-    command = 'iptables -S'
+    command = IPTABLES + ' -S'
     rules = subprocess.check_output(command, shell=True, text=True)
     return iptables_rule in rules
 
