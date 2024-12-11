@@ -7,8 +7,8 @@ name = "log2ban"
 version = "0.1.0"
 description = "Simpler fail2ban."
 authors = [
-    { name = "Paweł Pasternak", email = "ppasternak@student.agh.edu.pl" }
-    { name = "Nikodem Marek", email = "nikodemmarek@student.agh.edu.pl" }
+    { name = "Paweł Pasternak", email = "ppasternak@student.agh.edu.pl" },
+    { name = "Nikodem Marek", email = "nikodemmarek@student.agh.edu.pl" },
     { name = "Mateusz Szelecki", email = "mszelecki@student.agh.edu.pl" }
 ]
 license = { text = "Unlicense" }
